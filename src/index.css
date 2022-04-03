@@ -1,13 +1,200 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background: #1b2025 !important;
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+span {
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body,
+html,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  position: fixed;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+}
+
+.login {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 6px 11px 0px rgba(105, 105, 105, 0.9);
+  box-shadow: 0px 6px 11px 0px rgba(105, 105, 105, 0.9);
+}
+
+.circle-container {
+  position: relative;
+  width: 30em;
+  height: 30em;
+  padding: 2.8em;
+  border-radius: 50%;
+  margin: 1.75em auto 0;
+}
+
+.circle-container a {
+  display: block;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 4em;
+  height: 4em;
+  margin: -2em;
+  text-decoration: none;
+}
+
+.center p {
+  text-align: center;
+  color: #ffffff;
+  margin-top: -40px;
+  margin-left: -40px;
+}
+
+.deg0 p {
+  position: relative;
+  top: 100px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.deg1 p {
+  position: relative;
+  bottom: 100px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.deg2 p {
+  position: relative;
+  top: 90px;
+  left: 50px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.deg3 p {
+  position: relative;
+  top: 60px;
+  left: 85px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.deg4 p {
+  position: relative;
+  bottom: 90px;
+  right: 50px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.deg5 p {
+  position: relative;
+  bottom: 50px;
+  right: 85px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.deg6 p {
+  position: relative;
+  bottom: 0px;
+  right: 90px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.deg7 p {
+  position: relative;
+  top: 10px;
+  left: 100px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.deg8 p {
+  position: relative;
+  top: 40px;
+  right: 80px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.deg9 p {
+  position: relative;
+  bottom: 40px;
+  left: 90px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.deg10 p {
+  position: relative;
+  bottom: 85px;
+  left: 60px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.deg11 p {
+  position: relative;
+  top: 85px;
+  right: 50px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.deg12 p {
+  position: relative;
+  bottom: 20px;
+  left: 85px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
 }

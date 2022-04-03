@@ -1,9 +1,16 @@
+import { Login } from "./Login";
+import { Dashboard } from "./Dashboard";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Frontend Candidate Code Test Project</h1>
-    </div>
+      <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Login />} />
+        <Route exact path="/dashboard" element={<Dashboard />} />
+      </Routes>
+      </BrowserRouter>
+
   );
 }
 
